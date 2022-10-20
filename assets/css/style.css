@@ -1,0 +1,61 @@
+/*Desafio 1 */
+#imagen{
+    background-color: black;
+}
+
+
+
+
+/*Desafio 2 */
+.imgs{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+img{
+    width: 20vw;
+    
+}
+
+.selectores{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+    
+}
+
+input{
+    width: 5vw;
+    text-align: center;
+}
+
+.boton{
+    text-align: center;
+    
+}
+
+#valor{
+    color: chocolate;
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 5vh;
+}
+
+
+/* Desafio 3 */ 
+.estilo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10vh;
+
+}
+
+#resultado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: chocolate;
+}

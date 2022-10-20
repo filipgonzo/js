@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+   <img onclick="
+   var imagen = document.querySelector('#imagen');
+   var borde = imagen.style.border;
+
+   if(borde != ''){
+    
+    imagen.style.border = '';
+   }
+   else{
+    imagen.style.border = '4px solid red';
+   }
+   "
+    src="assets/img/Stihl-Logo.png" id="imagen" alt="imagen" width="50%">
+
+
+
+</body>
+</html>
